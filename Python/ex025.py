@@ -1,0 +1,5 @@
+nome = str(input('Digite o seu nome: ')).strip()
+# nomeJunto = ''.join(nome.split()).upper()
+# ondeComeca = int(nomeJunto.find('SILVA'))
+# print(f'Seu nome tem silva? {nomeJunto[ondeComeca:ondeComeca + 5] == "SILVA"}')
+print(f'Seu nome tem silva? {"silva" in nome.lower()}')
