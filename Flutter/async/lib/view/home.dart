@@ -33,8 +33,8 @@ class _HomeState extends State<Home> {
                 _name = _getName();
               });
 
-              final URL = Uri.https('www.potterapi.com', '/v1/sortingHat');
-              final myFuture = http.get(URL);
+              final url = Uri.https('www.potterapi.com', '/v1/sortingHat');
+              final myFuture = http.get(url);
 
               myFuture.then((response) {
                 if(response.statusCode == 200) {

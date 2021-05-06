@@ -1,4 +1,4 @@
-import 'dart:math';
+// import 'dart:math';
 
 import 'package:flutter/material.dart';
 
@@ -76,11 +76,11 @@ class _Home1State extends State<Home1> {
 
   //async ->>>> prover um Future.....
   //utilizamos async sempre que precisarmos retornar um valor de forma assíncrona....
-  Future<int> _generateRandomicNumber() async {
-    var random = Random();
-    await Future.delayed(const Duration(seconds: 3));
-    return random.nextInt(6);
-  }
+  // Future<int> _generateRandomicNumber() async {
+  //   var random = Random();
+  //   await Future.delayed(const Duration(seconds: 3));
+  //   return random.nextInt(6);
+  // }
 
   //async*
   //adicionamos o * quando precisamos stremar um resultado..... ou seja, preciso que fique enviando o resultado
